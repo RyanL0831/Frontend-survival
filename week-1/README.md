@@ -2,7 +2,7 @@
 description: 목차
 ---
 
-# Week1
+# Week 1
 
 * 개발 환경
 * TypeScript
