@@ -55,15 +55,9 @@ Hello, World! <br>   -> </br> 로 변환필요 (HTML과 JSX의 차이)
 ## 0:46:30 - React Strict Mode:
 
 ```markup
-<React.StrictMode>
-  <App />
-</React.StrictMode>
-       
-       OR
-       
-       <>
-     <App />
-       </>
+<React.StrictMode>                    <>
+  <App />                OR         <App />
+</React.StrictMode>                   </>
 ```
 
 ## VDOM(virtual DOM)을 쓰는 이유
