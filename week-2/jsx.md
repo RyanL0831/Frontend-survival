@@ -90,6 +90,19 @@ Plug-in를 뺏을때: JSX방식
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+```jsx
+<div>
+ <p>
+  Count:    -> 고려할수 있음ext>Count:</text>
+  {' '}
+  {count}
+  !
+ </p>
+</div>
+```
+
+
+
 ## 0:46:30 - React Strict Mode:
 
 ```markup
