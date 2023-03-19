@@ -40,7 +40,7 @@ Hello, World! <br>   -> </br> 로 변환필요 (HTML과 JSX의 차이)
 
 JSX 파일에 /\* @jsx XYZ \*/ 주석을 추가하면 React.createElement 대신 "XYZ"를 쓰게 된다
 
-## Example #1
+## Example
 
 // JSX 파일
 
@@ -65,6 +65,26 @@ React.createElement("p", null, "Hello, world!");
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Fragment를&#x3C;> &#x3C;/> 이렇게도 표현 가능</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>보통의 경우 div로 감싸줌</p></figcaption></figure>
+
+JSX 코드
+
+```jsx
+<div className="test">    //className이 없었으면 2번째 인자가 null로 받아짐
+ <p>Hello, world!</p>
+ <Button type="submit">Send</Button>
+</div>
+```
+
+변환된 JS 코드
+
+```javascript
+React.createElement(
+ "div",
+ { className: "test" },
+ React.createElement("p",null,"Hello, world!"),
+ React.createElement(Button, {type: "submit"}, "Send")
+);
+```
 
 
 
