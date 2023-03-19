@@ -1,6 +1,6 @@
 # JSX
 
-## \[Keyword]
+## ![](<../.gitbook/assets/image (3).png>)\[Keyword]
 
 * React에서 JSX를 사용하는 목적
 * Syntactic sugar
@@ -56,9 +56,11 @@ JSX 파일에 /\* @jsx XYZ \*/ 주석을 추가하면 React.createElement 대신
 React.createElement("p", null, "Hello, world!");
 ```
 
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-##
+
 
 ## 0:46:30 - React Strict Mode:
 
