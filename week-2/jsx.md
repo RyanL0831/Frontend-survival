@@ -62,7 +62,7 @@ React.createElement("p", null, "Hello, world!");
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Fragment를&#x3C;> &#x3C;/> 이렇게도 표현 가능</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Fragment를&#x3C;> &#x3C;/> 이렇게도 표현 가능</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>보통의 경우 div로 감싸줌</p></figcaption></figure>
 
@@ -86,7 +86,9 @@ React.createElement(
 );
 ```
 
+Plug-in를 뺏을때: JSX방식
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 0:46:30 - React Strict Mode:
 
