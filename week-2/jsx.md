@@ -93,7 +93,7 @@ Plug-in를 뺏을때: JSX방식
 ```jsx
 <div>
  <p>
-  Count:    -> 고려할수 있음ext>Count:</text>
+  Count:    ->가상으로 고려할수 있음ext>Count:</text>
   {' '}
   {count}
   !
