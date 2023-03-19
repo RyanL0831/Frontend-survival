@@ -1,7 +1,5 @@
 # JSX
 
-## ![](<../.gitbook/assets/image (3).png>)\[Keyword]
-
 * React에서 JSX를 사용하는 목적
 * Syntactic sugar
 * React.createElement
