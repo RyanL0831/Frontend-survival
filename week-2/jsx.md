@@ -56,9 +56,9 @@ JSX 파일에 /\* @jsx XYZ \*/ 주석을 추가하면 React.createElement 대신
 React.createElement("p", null, "Hello, world!");
 ```
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-
-
+##
 
 ## 0:46:30 - React Strict Mode:
 
