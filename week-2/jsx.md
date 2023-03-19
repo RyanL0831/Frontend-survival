@@ -36,17 +36,25 @@ Hello, World! <br>   -> </br> 로 변환필요 (HTML과 JSX의 차이)
 </p>
 ```
 
-## 0:06:50 - Babel presets:
+## Babel presets:
 
 "Presets"에서 "React" 체크 OR "Plugins"에서 "@babel/plugin-transform-react-jsx"를 추가
 
-##
+JSX 파일에 /\* @jsx XYZ \*/ 주석을 추가하면 React.createElement 대신 "XYZ"를 쓰게 된다
 
+## Example #1
 
+// JSX 파일
 
+```jsx
+<p>Hello, world!</p>
+```
 
+// 변환된 JS 코드
 
-
+```javascript
+React.createElement("p", null, "Hello, world!");
+```
 
 
 
