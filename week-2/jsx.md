@@ -101,9 +101,7 @@ Plug-in를 뺏을때: JSX방식
 </div>
 ```
 
-
-
-## 0:46:30 - React Strict Mode:
+## React Strict Mode:
 
 ```markup
 <React.StrictMode>                    <>
