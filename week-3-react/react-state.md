@@ -32,7 +32,7 @@ React의 state는 “변경”을 다루기 위한 요소 (data가 있다고.해
 2. 부모 컴포넌트가 props를 통해 전달한다면 state가 아님.
 3. 다른 state나 props를 이용해 계산 가능하다면 state가 아님. !제일!중요!
 
-<pre class="language-typescript"><code class="lang-typescript"><strong>// 3) 나쁜예시 - 작동은 하나 쓰지 않기를 권고 ()
+<pre class="language-typescript"><code class="lang-typescript"><strong>// 3) 나쁜예시 - 작동은 하나 쓰지 않기를 권고 (상태가 아니니, 상태 처럼 쓰지 말것)
 </strong><strong>export default function ProductTable({ products }: ProductTableProps) {
 </strong>    const [categories, setCategories] = useState&#x3C;string[]>([]);
 
@@ -44,9 +44,9 @@ React의 state는 “변경”을 다루기 위한 요소 (data가 있다고.해
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://react.dev/learn/you-might-not-need-an-effect">https://react.dev/learn/you-might-not-need-an-effect</a></p></figcaption></figure>
 
-다루는 상태가 너무 많으면 복잡함. TypeScript를 잘 쓰면 직접 관리하는 상태의 수를 줄여줄 수 있다.
+다루는 상태가 너무 많으면 복잡함. TypeScript를 잘 쓰면 직접 관리하는 상태의 수를 줄여줄 수 있다. JS의 경우 obj가 있는데 그안에 머가 들어있는지 모르기에 불안함 ( props로 하나씩   던져주는게 안전). TypeScript에서는 props가 하나밖에 안돌지만 그것이 잘 정리된 타입이라면 props로 쓰는것과 비슷, 다른데 넘겨주기 쉬워 재사용에부담감이 없음
 
-그렇다면 그 상태를 누가 관리해야 할까? 더 정확히는, 상태를 누가 소유해야 할까?
+그렇다면 그 상태를 _누가 관리해야 할까?_ 더 정확히는, 상태를 _누가 소유해야 할까?_
 
 (React만 쓴다면) 해당 상태에 의존적인 컴포넌트를 모두 포함하는 컴포넌트가 상태를 소유해야 함.
 
