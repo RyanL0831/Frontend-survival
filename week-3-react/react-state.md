@@ -19,7 +19,7 @@
 
 ## React의 State
 
-React의 state는 “변경”을 다루기 위한 요소. “Re-rendering”이란 주제에서 다뤄진다. 거칠게 이야기하면, 어떤 컴포넌트의 state가 바뀌면 해당 컴포넌트와 하위 컴포넌트를 다시 렌더링하게 된다.
+React의 state는 “변경”을 다루기 위한 요소 (data가 있다고.해서 전부 state는아님). “Re-rendering”이란 주제에서 다뤄진다. 거칠게 이야기하면, 어떤 컴포넌트의 state가 바뀌면 해당 컴포넌트와 하위 컴포넌트를 다시 렌더링하게 된다.
 
 아무렇게나 막 만들어도 되지만, 일관성과 효율을 위해 DRY 원칙을 따르는 SSOT를 만든다.
 
@@ -30,7 +30,19 @@ React의 state는 “변경”을 다루기 위한 요소. “Re-rendering”이
 
 1. 변경돼야 함. 변경되지 않는 건 state로 다룰 가치가 없다.
 2. 부모 컴포넌트가 props를 통해 전달한다면 state가 아님.
-3. 다른 state나 props를 이용해 계산 가능하다면 state가 아님.
+3. 다른 state나 props를 이용해 계산 가능하다면 state가 아님. !제일!중요!
+
+<pre class="language-typescript"><code class="lang-typescript"><strong>// 3) 나쁜예시 - 작동은 하나 쓰지 않기를 권고 ()
+</strong><strong>export default function ProductTable({ products }: ProductTableProps) {
+</strong>    const [categories, setCategories] = useState&#x3C;string[]>([]);
+
+    useEffect(() => {
+        setCategories(selectCategories(products));
+    }, [products]);
+}
+</code></pre>
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://react.dev/learn/you-might-not-need-an-effect">https://react.dev/learn/you-might-not-need-an-effect</a></p></figcaption></figure>
 
 다루는 상태가 너무 많으면 복잡함. TypeScript를 잘 쓰면 직접 관리하는 상태의 수를 줄여줄 수 있다.
 

@@ -54,7 +54,7 @@ JSX 파일에 /\* @jsx XYZ \*/ 주석을 추가하면 React.createElement 대신
 React.createElement("p", null, "Hello, world!");
 ```
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 

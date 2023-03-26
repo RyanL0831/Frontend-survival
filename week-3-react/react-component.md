@@ -14,8 +14,6 @@
 * Atomic Design
 * React component 와 props
 
-
-
 ## 데이터
 
 B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정(대부분은 REST API 또는 GraphQL)
@@ -37,7 +35,7 @@ B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정
 
 ### JSON.stringify() : 객체를 매개변수로서 수용하고, JSON 문자열 형태로 변환합니다.Object를 문자열로 반환
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### JSON.parse() : JSON 문자열을 매개변수로서 수용하고, 일치하는 자바스크립트 객체로서 변환합니다.
 
