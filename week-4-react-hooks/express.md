@@ -56,6 +56,8 @@ npx tsc --init        // TS config 파일을 만들어줌
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>npx tsc --init</p></figcaption></figure>
 
+## \* 00:05:33 \*&#x20;
+
 #### ts-node 설치
 
 ```bash
