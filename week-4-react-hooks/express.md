@@ -11,7 +11,9 @@
 
 > [Express ](https://expressjs.com/ko/)
 
+\- node JS 초창기 web framework
 
+\- 아폴로 server + express 조합
 
 ## 간단한 서버 앱 npm 패키지 세팅
 
@@ -19,23 +21,21 @@
 
 > [ts-node](https://github.com/TypeStrong/ts-node)
 
-
+\- node 무조건 npm
 
 ```bash
 mkdir express-demo-app
 cd mkdir express-demo-app
 ```
 
-
-
 #### 잊지 말고 .gitignore 파일 준비!
 
 ```bash
-touch .gitignore
-echo "/node_modules/" > .gitignore
+touch .gitignore          // 만들어줌
+echo "/node_modules/"      // 화면에 보여줌
+echo "/node_modules/" > .gitignore     //gitignore에 추가됨
+
 ```
-
-
 
 #### 패키지 초기화
 
@@ -43,30 +43,32 @@ echo "/node_modules/" > .gitignore
 npm init -y
 ```
 
-
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 #### TypeScript
 
 ```bash
-npm i -D typescript
-npx tsc --init
+npm i -D typescript   // npm i --save-dev typescript 와 같음 (devDependencies로 들어감)
+npx tsc --init        // TS config 파일을 만들어줌
 ```
 
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>npx tsc --init</p></figcaption></figure>
+
+#### ts-node 설치
+
+```bash
+npm i -D ts-node
+```
+
+####
 
 #### ESLint
 
 ```bash
 npm i -D eslint
 npx eslint --init
-```
-
-
-
-#### ts-node 설치
-
-```bash
-npm i -D ts-node
 ```
 
 
@@ -146,11 +148,11 @@ Roy Fielding - “[Architectural Styles and the Design of Network-based Software
 
 1. Read (Collection) → GET /products ⇒ 상품 목록 확인
 2. Read (Item) → GET /products/{id} ⇒ 특정 상품 정보 확인
-3. Create (Collection Pattern 활용) → POST /products ⇒ 상품 추가 (JSON 정보 함께 전달)
+3. Create (Collection Pattern 활용) →  PUT or POST /products ⇒ 상품 추가 (JSON 정보 함께 전달)
 4. Update (Item) → PUT 또는 PATCH /products/{id} ⇒ 특정 상품 정보 변경 (JSON 정보 함께 전달)
 5. Delete (Item) → DELETE /products/{id} ⇒ 특정 상품 삭제
 
-
+_\* PUT은 없으면 만들어주고, 있으면 덮어 씌움 (PATCH 일부만 변경, 최근 생김)_
 
 #### Thinking in React 예제
 
@@ -178,19 +180,20 @@ app.get('/products', (req, res) => {
 		},
 	];
 	
-	res.send({ products });
+	res.send({ products }); //자동으로 JSON으로 변환. JSON.stringify() 안써야 더 전달이 잘됨
+	res.send( products );  //이렇게도 표현 가능
+	res.send({ products, pages: { currentPage: 1, totalPages: 10 } }); //이렇게도 구분함 
 });
 ```
 
+#### localhost:3000 에서 확인
 
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
+#### TERMINAL에서 Curl 으로 확인 가능
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+#### TERMINAL에서 HTTP 으로 확인 가능
 
-
-
-
-
-
-
-
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
