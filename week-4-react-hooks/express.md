@@ -52,7 +52,7 @@ npm i -D typescript   // npm i --save-dev typescript 와 같음 (devDependencies
 npx tsc --init        // TS config 파일을 만들어줌
 ```
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>npx tsc --init</p></figcaption></figure>
 

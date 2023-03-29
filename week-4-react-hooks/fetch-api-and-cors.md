@@ -69,16 +69,20 @@ const response = fetch(url, {
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-
+## \* 08:14 \~ 10:21 \*
 
 ## CORS
+
+web browser 가 갖고있는 기본적인 보안 정책
 
 * [same-origin policy (동일 출처 정책)](https://developer.mozilla.org/ko/docs/Web/Security/Same-origin\_policy)
 * [CORS (교차 출처 리소스 공유)](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)
 
+웹 브라우저는 Same Origin Policy에 따라 웹 페이지와 리소스를 요청한 곳(여기서는 REST API 서버)이 서로 다른 출처(포트까지 포함)일 때 서버에서 얻은 결과를 사용할 수 없게 막는다 (_**서버에서 우선 데이터는 얻어옴**_). 서버에 요청하고 응답을 받아오는 것까지는 이미 진행이 다 된 상황이란 점에 주의!
 
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-웹 브라우저는 Same Origin Policy에 따라 웹 페이지와 리소스를 요청한 곳(여기서는 REST API 서버)이 서로 다른 출처(포트까지 포함)일 때 서버에서 얻은 결과를 사용할 수 없게 막는다. 서버에 요청하고 응답을 받아오는 것까지는 이미 진행이 다 된 상황이란 점에 주의!
+## \* 11:42 \*
 
 REST API 서버에서 Headers에 “Access-Control-Allow-Origin” 속성을 추가하면 된다
 
