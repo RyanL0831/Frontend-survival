@@ -31,7 +31,7 @@ B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정
 
 ### JSON API
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### JSON.stringify() : 객체를 매개변수로서 수용하고, JSON 문자열 형태로 변환합니다.Object를 문자열로 반환
 
@@ -39,7 +39,7 @@ B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정
 
 ### JSON.parse() : JSON 문자열을 매개변수로서 수용하고, 일치하는 자바스크립트 객체로서 변환합니다.
 
-<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 F/E는 이 데이터를 사용자가 볼 수 있도록 UI를 구성한다. React는 선언형(HTML과 유사한 모양의 DSL을 사용)으로 UI를 구성할 수 있다.
 

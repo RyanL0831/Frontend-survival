@@ -52,7 +52,7 @@ npm i -D typescript   // npm i --save-dev typescript 와 같음 (devDependencies
 npx tsc --init        // TS config 파일을 만들어줌
 ```
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>npx tsc --init</p></figcaption></figure>
 
@@ -190,11 +190,11 @@ app.get('/products', (req, res) => {
 
 #### localhost:3000 에서 확인
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 #### TERMINAL에서 Curl 으로 확인 가능
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### TERMINAL에서 HTTP 으로 확인 가능
 
