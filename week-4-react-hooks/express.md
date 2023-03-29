@@ -43,7 +43,7 @@ echo "/node_modules/" > .gitignore     //gitignore에 추가됨
 npm init -y
 ```
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### TypeScript
 
@@ -52,7 +52,7 @@ npm i -D typescript   // npm i --save-dev typescript 와 같음 (devDependencies
 npx tsc --init        // TS config 파일을 만들어줌
 ```
 
-<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>npm i -D typescript</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>npx tsc --init</p></figcaption></figure>
 
@@ -198,4 +198,4 @@ app.get('/products', (req, res) => {
 
 #### TERMINAL에서 HTTP 으로 확인 가능
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>

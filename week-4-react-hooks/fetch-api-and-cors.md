@@ -8,14 +8,24 @@
 * Unicode
 * CORS 란
 
-
-
 ## Fetch API
+
+웹에서 사용. FE에서 BE으로 넘겨줌.
 
 * [Fetch API](https://developer.mozilla.org/ko/docs/Web/API/Fetch\_API)
 * [Fetch 사용하기](https://developer.mozilla.org/ko/docs/Web/API/Fetch\_API/Using\_Fetch)
 * [ReadableStream](https://developer.mozilla.org/ko/docs/Web/API/ReadableStream)
 * [텍스트 디코더와 텍스트 인코더](https://ko.javascript.info/text-decoder)
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### ReadableStream
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## 기본적인 사용법 실험
 
@@ -40,8 +50,6 @@ const body = new TextDecoder().decode(chunk.value);
 const data = JSON.parse(body);
 ```
 
-
-
 #### JSON을 기본 지원한다
 
 ```javascript
@@ -49,7 +57,7 @@ const response = await fetch('http://localhost:3000/products');
 const data = await response.json();
 ```
 
-
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### 다른 HTTP Method를 쓰고 싶다면?
 
@@ -58,6 +66,8 @@ const response = fetch(url, {
 	method: 'POST',
 });
 ```
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 

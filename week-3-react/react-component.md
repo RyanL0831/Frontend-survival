@@ -31,7 +31,7 @@ B/E에서 JSON 형태의 데이터를 돌려주는 API를 제공한다고 가정
 
 ### JSON API
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### JSON.stringify() : 객체를 매개변수로서 수용하고, JSON 문자열 형태로 변환합니다.Object를 문자열로 반환
 
