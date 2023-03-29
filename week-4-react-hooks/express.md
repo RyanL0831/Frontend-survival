@@ -190,11 +190,11 @@ app.get('/products', (req, res) => {
 
 #### localhost:3000 에서 확인
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### TERMINAL에서 Curl 으로 확인 가능
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### TERMINAL에서 HTTP 으로 확인 가능
 
