@@ -78,7 +78,7 @@ _**렌더링 이후 해야 할 일(화면에 그리는것만 하진 않음)**_, 
 
 기본적으로 렌더링 때마다 실행되므로, 의존성 배열을 통해 언제 이펙트를 실행할지 지정할 수 있다(= 불필요한 경우에 건너뛸 수 있다)
 
-함수를 리턴함으로써 종료 처리를 할 수 있다
+**함수를 리턴함으로써 종료 처리**를 할 수 있다
 
 ### 타이머의 예제
 
@@ -139,7 +139,7 @@ export default function TimerControl() {
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>setInterval() 이 계속돔 (시간이 사라지않음)</p></figcaption></figure>
 
 #### 종료 처리
 
