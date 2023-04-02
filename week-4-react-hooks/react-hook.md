@@ -2,6 +2,17 @@
 
 ## 학습 키워드
 
+* React Hook 이란
+* Hooks
+  * useState
+  * useEffect
+  * useContext
+  * useRef
+  * useLayoutEffect
+* React StrictMode 란
+
+#### React의 Hook
+
 * [Hook의 개요](https://ko.reactjs.org/docs/hooks-intro.html)
 * [Hook 개요](https://ko.reactjs.org/docs/hooks-overview.html)
 * [Hooks API Reference](https://ko.reactjs.org/docs/hooks-reference.html)
