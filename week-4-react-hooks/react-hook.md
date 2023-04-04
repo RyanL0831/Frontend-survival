@@ -141,6 +141,8 @@ export default function TimerControl() {
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>setInterval() 이 계속돔 (시간이 사라지않음)</p></figcaption></figure>
 
+\* 18:54 \*
+
 #### 종료 처리
 
 ```javascript
