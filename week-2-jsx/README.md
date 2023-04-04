@@ -9,4 +9,4 @@ description: >-
 
 ## 목차
 
-* JSX
+1. JSX

@@ -6,8 +6,8 @@ description: '학습목표: 간단한 서버를 만들고, custom hook 을 사�
 
 ## 목차
 
-* Express
-* Fetch API & CORS
-* React의 Hook
-* useRef & Custom Hook
-* usehooks-ts
+1. Express
+2. Fetch API & CORS
+3. React의 Hook
+4. useRef & Custom Hook
+5. usehooks-ts

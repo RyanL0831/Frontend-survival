@@ -9,8 +9,8 @@ description: >-
 
 ## 목차
 
-* 개발 환경
-* TypeScript
-* React
-* Testing Library
-* Parcel & ESLint
+1. 개발 환경
+2. TypeScript
+3. React
+4. Testing Library
+5. Parcel & ESLint

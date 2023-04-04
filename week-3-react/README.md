@@ -10,5 +10,5 @@ description: 학습목표
 
 ## 목차
 
-* React Component
-* React State
+1. React Component
+2. React State
