@@ -33,7 +33,7 @@ npm i usehooks-ts
 
 → 위에서 만든 TimerControl에 써보자
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### [useEffectOnce](https://usehooks-ts.com/react-hook/use-effect-once)
 
@@ -41,15 +41,15 @@ npm i usehooks-ts
 
 → 위에서 만든 useFetchProducts에 써보자
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### [useFetch](https://usehooks-ts.com/react-hook/use-fetch)
 
 정말 간단히 쓸 때 좋음
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>빈 배열 error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>빈 배열 error</p></figcaption></figure>
 
 몇 가지 기능이 살짝 더 있는 useFetch 라이브러리가 따로 있다
 
@@ -67,6 +67,10 @@ React에서 setInterval 등을 쓸 때는 주의해야 할 부분이 있어서 C
 * [useEffect 관점](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
   * [React에서의 타이머 part 1 : setInterval 말고 이것! - 코드종님 영상](https://www.youtube.com/watch?v=2tUdyY5uBSw\&feature=youtu.be)
 * [Ref 활용](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+
+_useEffect() 자급자족_
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 #### [useEventListener](https://usehooks-ts.com/react-hook/use-event-listener)
 

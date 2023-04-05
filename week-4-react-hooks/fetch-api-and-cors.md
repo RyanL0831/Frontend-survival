@@ -17,7 +17,7 @@
 * [ReadableStream](https://developer.mozilla.org/ko/docs/Web/API/ReadableStream)
 * [텍스트 디코더와 텍스트 인코더](https://ko.javascript.info/text-decoder)
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### ReadableStream
 
@@ -67,7 +67,7 @@ const response = fetch(url, {
 });
 ```
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## \* 08:14 \~ 10:21 \*
 

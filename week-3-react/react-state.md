@@ -42,7 +42,7 @@ React의 state는 “변경”을 다루기 위한 요소 (data가 있다고.해
 }
 </code></pre>
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p><a href="https://react.dev/learn/you-might-not-need-an-effect">https://react.dev/learn/you-might-not-need-an-effect</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p><a href="https://react.dev/learn/you-might-not-need-an-effect">https://react.dev/learn/you-might-not-need-an-effect</a></p></figcaption></figure>
 
 다루는 상태가 너무 많으면 복잡함. TypeScript를 잘 쓰면 직접 관리하는 상태의 수를 줄여줄 수 있다. JS의 경우 obj가 있는데 그안에 머가 들어있는지 모르기에 불안함 ( props로 하나씩   던져주는게 안전). TypeScript에서는 props가 하나밖에 안돌지만 그것이 잘 정리된 타입이라면 props로 쓰는것과 비슷, 다른데 넘겨주기 쉬워 재사용에부담감이 없음
 
