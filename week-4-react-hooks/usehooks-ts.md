@@ -37,6 +37,8 @@ npm i usehooks-ts
 
 #### [useEffectOnce](https://usehooks-ts.com/react-hook/use-effect-once)
 
+_사용하면 표현력이 좋아짐_
+
 의존성 배열을 빈 배열로 넣어서 한 번만 실행하는 Effect를 잡아줄 때가 많은데, 이걸 쓰면 더 명확히 드러난다
 
 → 위에서 만든 useFetchProducts에 써보자
@@ -62,19 +64,28 @@ npm i usehooks-ts
 
 #### [useInterval](https://usehooks-ts.com/react-hook/use-interval)
 
+_**\* setInterval 사용시(상태등에 물릴시 문제가됨) 무조건 useInterval() 사용**_
+
 React에서 setInterval 등을 쓸 때는 주의해야 할 부분이 있어서 Custom Hook을 만들어서 해결해야 함
 
 * [useEffect 관점](https://overreacted.io/ko/a-complete-guide-to-useeffect/)
   * [React에서의 타이머 part 1 : setInterval 말고 이것! - 코드종님 영상](https://www.youtube.com/watch?v=2tUdyY5uBSw\&feature=youtu.be)
-* [Ref 활용](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
-
-_useEffect() 자급자족_
+* _useEffect() 자급자족_
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+* [Ref 활용](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### [useEventListener](https://usehooks-ts.com/react-hook/use-event-listener)
 
 모든 종류의 이벤트를 확인할 수 있음. 특히 dispatchEvent로 전달되는 커스텀 이벤트에 반응하기 좋다. (강력 추천!)
+
+* useClickAnyWhere() - 아무대나 클릭하면 (클릭이벤트가  있으면 작동)
+* 로그인 후 특히 외부랑 많이 물려있는 코드가 있을시, hook으로 빼기 싫고 아예 밖으로 빼고 싶을때, 어딘가 컴포넌트로 몰아주거나 할때 사용하면 굉장히 편함
+
+14:30
 
 [useLocalStorage](https://usehooks-ts.com/react-hook/use-local-storage)
 
