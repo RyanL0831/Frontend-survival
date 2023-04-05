@@ -17,7 +17,7 @@
 * [ReadableStream](https://developer.mozilla.org/ko/docs/Web/API/ReadableStream)
 * [텍스트 디코더와 텍스트 인코더](https://ko.javascript.info/text-decoder)
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### ReadableStream
 
@@ -57,7 +57,7 @@ const response = await fetch('http://localhost:3000/products');
 const data = await response.json();
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 다른 HTTP Method를 쓰고 싶다면?
 
@@ -67,7 +67,7 @@ const response = fetch(url, {
 });
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## \* 08:14 \~ 10:21 \*
 
