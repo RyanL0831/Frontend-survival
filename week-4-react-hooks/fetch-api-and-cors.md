@@ -69,7 +69,7 @@ const response = fetch(url, {
 
 <figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-## \* 08:14 \~ 10:21 \*
+08:14 \~ 10:21&#x20;
 
 ## CORS
 
@@ -82,7 +82,7 @@ web browser 가 갖고있는 기본적인 보안 정책
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-## \* 11:42 \*
+11:42
 
 REST API 서버에서 Headers에 “Access-Control-Allow-Origin” 속성을 추가하면 된다
 
@@ -111,16 +111,3 @@ app.use(cors());
 ```
 
 정교한 설정은 공식 문서 참고
-
-
-
-
-
-
-
-
-
-
-
-
-
