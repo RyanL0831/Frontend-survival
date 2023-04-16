@@ -16,7 +16,10 @@
 
 \| [Ashal의 Playwright](https://github.com/ahastudio/til/blob/main/test/playwright.md)
 
-#### ! <mark style="background-color:blue;">웹 브라우저 기반 E2E 테스트 자동화 도구. Headless Chrome을 기반으로 한 Puppeteer를 계승하면서, 더 많은 웹 브라우저를 지원한다</mark>
+#### ! <mark style="background-color:blue;">웹 브라우저 기반 E2E 테스트 자동화 도구. Headless Chrome을 기반으로 한 Puppeteer(구글에서 만듬)를 계승하면서, 더 많은 웹 브라우저를 지원한다</mark>
+
+* Headless browser (가볍게) - 화면에 안뜸, 뒤에서만 돌아감
+* Phantom JS - 크롬기반, 크롬이 어떻게 돌아가는지
 
 #### Playwright 패키지 설치
 
