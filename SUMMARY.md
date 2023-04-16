@@ -23,3 +23,8 @@
   * [React Testing Library](week-5-test/react-testing-library.md)
   * [MSW](week-5-test/msw.md)
   * [Playwright](week-5-test/playwright.md)
+* [Week 6: External Store](week-6-external-store/README.md)
+  * [External Store](week-6-external-store/external-store.md)
+  * [TSyringe](week-6-external-store/tsyringe.md)
+  * [Redux 따라하기](week-6-external-store/redux.md)
+  * [usestore-ts](week-6-external-store/usestore-ts.md)
