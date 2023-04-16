@@ -91,7 +91,7 @@ Parcel 설치
 TypeScript + React + Jest + ESLint + Parcel 개발 환경 세팅
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 

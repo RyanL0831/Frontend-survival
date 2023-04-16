@@ -43,7 +43,7 @@ _사용하면 표현력이 좋아짐_
 
 → 위에서 만든 useFetchProducts에 써보자
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### [useFetch](https://usehooks-ts.com/react-hook/use-fetch)
 
