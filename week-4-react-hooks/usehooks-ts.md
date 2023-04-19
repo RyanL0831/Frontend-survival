@@ -43,7 +43,7 @@ _사용하면 표현력이 좋아짐_
 
 → 위에서 만든 useFetchProducts에 써보자
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### [useFetch](https://usehooks-ts.com/react-hook/use-fetch)
 
@@ -51,7 +51,7 @@ _사용하면 표현력이 좋아짐_
 
 <figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>빈 배열 error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (2).png" alt=""><figcaption><p>빈 배열 error</p></figcaption></figure>
 
 몇 가지 기능이 살짝 더 있는 useFetch 라이브러리가 따로 있다
 
@@ -76,7 +76,7 @@ React에서 setInterval 등을 쓸 때는 주의해야 할 부분이 있어서 C
 
 * [Ref 활용](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### [useEventListener](https://usehooks-ts.com/react-hook/use-event-listener)
 

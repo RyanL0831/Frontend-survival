@@ -13,7 +13,7 @@
 
 \| [jest-dom](https://github.com/testing-library/jest-dom)
 
-#### !![](<../.gitbook/assets/image (1).png>)<mark style="background-color:blue;">React 컴포넌트를 사용자 입장에 가깝게 테스트할 수 있는 도구</mark>
+#### !![](<../.gitbook/assets/image (1) (2).png>)<mark style="background-color:blue;">React 컴포넌트를 사용자 입장에 가깝게 테스트할 수 있는 도구</mark>
 
 ```javascript
 import { render, screen } from '@testing-library/react';
