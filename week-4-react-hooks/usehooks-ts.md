@@ -76,7 +76,7 @@ React에서 setInterval 등을 쓸 때는 주의해야 할 부분이 있어서 C
 
 * [Ref 활용](https://overreacted.io/making-setinterval-declarative-with-react-hooks/)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### [useEventListener](https://usehooks-ts.com/react-hook/use-event-listener)
 
