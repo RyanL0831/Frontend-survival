@@ -16,7 +16,7 @@
 
 #### location.hash 예제)
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>한글은 encoding한 hash값으로 나옴. URL에 한글이 표기된건 browser가 지원한 기능.</p></figcaption></figure>
 
 #### .hash: encoding URI <=> decoding URI
 
