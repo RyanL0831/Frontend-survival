@@ -23,7 +23,7 @@ function Layout() {    //Layout 정의
   return (
     <div>
       <Header />
-        <Outlet />     //react-router 
+        <Outlet />     //react-router에서 지원
       <Footer />
     </div>
   );
