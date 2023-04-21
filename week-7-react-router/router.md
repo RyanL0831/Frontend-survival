@@ -8,29 +8,35 @@
 
 React Router 버전 6.4부터 지원하는, 라우터 객체를 만들어서 쓰는 방법
 
+* object 만들어 쓰는 개념과 유사함
+* App()
+  * 전체적으로 어떤 layout을 취하고 있는가
+  * 어떻게 라우팅 되고 있는가
+  * Layout 과 라우팅을 두개로 쪼개면 App()이 필요없어짐
+
 라우팅 정보만 별도의 파일로 관리
 
 ```typescript
 import { Outlet } from 'react-router-dom';
 
-function Layout() {
-	return (
-		<div>
-			<Header />
-			<Outlet />
-			<Footer />
-		</div>
-	);
+function Layout() {    //Layout 정의
+  return (
+    <div>
+      <Header />
+        <Outlet />     //react-router 
+      <Footer />
+    </div>
+  );
 }
-
+// 라우팅 정보 잡기
 const routes = [
-	{
-		element: <Layout />,
-		children: [
-			{ path: '/', element: <HomePage /> },
-			{ path: '/about', element: <AboutPage /> },
-		],
-	},
+  {
+     element: <Layout />,
+     children: [                                    //객체가 두개니 따로
+        { path: '/', element: <HomePage /> }, 
+        { path: '/about', element: <AboutPage /> },
+     ],
+  },
 ];
 
 export default routes;
