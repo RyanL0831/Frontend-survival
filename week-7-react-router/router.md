@@ -63,6 +63,8 @@ root.render((
 ));
 ```
 
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>05:22</p></figcaption></figure>
+
 #### 메모리 라우터 만들어서 테스트
 
 \|  [createMemoryRouter](https://reactrouter.com/en/main/routers/create-memory-router)

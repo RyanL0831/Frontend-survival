@@ -33,7 +33,7 @@ npm i usehooks-ts
 
 → 위에서 만든 TimerControl에 써보자
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### [useEffectOnce](https://usehooks-ts.com/react-hook/use-effect-once)
 
