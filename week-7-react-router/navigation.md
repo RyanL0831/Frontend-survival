@@ -23,40 +23,38 @@ history.pushState(state, title, url);
 
 \|  [Link](https://reactrouter.com/en/main/components/link)
 
-```typescript
-function Header() {
+<pre class="language-typescript"><code class="lang-typescript">function Header() {
 
 return (
-	<header>
-		<nav>
-			<ul>
-				<li><Link to="/">Home</Link></li>
-				<li><Link to="/about">About</Link></li>
-			</ul>
-		</nav>
-	</header>
-	);
+   &#x3C;header>
+      &#x3C;nav>
+         &#x3C;ul>
+            &#x3C;li>&#x3C;Link to="/">Home&#x3C;/Link>&#x3C;/li>
+            &#x3C;li>&#x3C;Link to="/about">About&#x3C;/Link>&#x3C;/li>
+         &#x3C;/ul>
+      &#x3C;/nav>
+<strong>   &#x3C;/header>
+</strong>   );
 }
-```
+</code></pre>
 
 ### NavLink
 
 \|  [NavLink](https://reactrouter.com/en/main/components/nav-link)
 
-```typescript
-function Header() {
-	return (
-		<header>
-			<nav>
-				<ul>
-					<li><NavLink to="/">Home</NavLink></li>
-					<li><NavLink to="/about">About</NavLink></li>
-				</ul>
-			</nav>
-		</header>
-	);
+<pre class="language-typescript"><code class="lang-typescript">function Header() {
+   return (
+      &#x3C;header>
+<strong>         &#x3C;nav>
+</strong>            &#x3C;ul>
+               &#x3C;li>&#x3C;NavLink to="/">Home&#x3C;/NavLink>&#x3C;/li>
+               &#x3C;li>&#x3C;NavLink to="/about">About&#x3C;/NavLink>&#x3C;/li>
+            &#x3C;/ul>
+         &#x3C;/nav>
+<strong>      &#x3C;/header>
+</strong>   );
 }
-```
+</code></pre>
 
 ### Navigate
 
@@ -66,9 +64,9 @@ function Header() {
 import { Navigate } from 'react-router-dom';
 
 export default function LoginPage() {
-	return (
-		<Navigate to="/" />
-	);
+   return (
+      <Navigate to="/" />
+   );
 }
 ```
 
@@ -78,25 +76,24 @@ export default function LoginPage() {
 
 \|  [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
 
-```typescript
-import { useNavigate } from 'react-router-dom';
+<pre class="language-typescript"><code class="lang-typescript">import { useNavigate } from 'react-router-dom';
 
 export default function Footer() {
-	const navigate = useNavigate();
+   const navigate = useNavigate();
 	
-	const handleClick = () => {
-		navigate('/about');
-	};
+<strong>   const handleClick = () => {
+</strong>      navigate('/about');
+   };
 	
-	return (
-		<footer>
-			<button type="button" onClick={handleClick}>
-				Press
-			</button>
-		</footer>
-	);
+   return (
+<strong>      &#x3C;footer>
+</strong>         &#x3C;button type="button" onClick={handleClick}>
+            Press
+         &#x3C;/button>
+<strong>      &#x3C;/footer>
+</strong>   );
 }
-```
+</code></pre>
 
 
 
