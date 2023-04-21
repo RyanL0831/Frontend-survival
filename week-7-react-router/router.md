@@ -28,7 +28,8 @@ function Layout() {    //Layout 정의
     </div>
   );
 }
-// 라우팅 정보 잡기
+
+// 라우팅 정보 잡기                              테스트에서도 route 정보가 필요
 const routes = [
   {
      element: <Layout />,
@@ -56,9 +57,9 @@ import routes from './routes';
 const router = createBrowserRouter(routes);
 
 root.render((
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
+   <React.StrictMode>
+      <RouterProvider router={router} />
+   </React.StrictMode>
 ));
 ```
 
@@ -68,26 +69,26 @@ root.render((
 
 ```typescript
 describe('routes'', () => {	
-	function renderRouter(path: string) {
-		const router = createMemoryRouter(routes, { initialEntries: [path] });
-		render(<RouterProvider router={router} />);
-	}
+  function renderRouter(path: string) {
+    const router = createMemoryRouter(routes, { initialEntries: [path] });
+    render(<RouterProvider router={router} />);
+  }
 	
-	context('when the current path is “/”', () => {
-		it('renders the home page', () => {
-			renderRouter('/');
+context('when the current path is “/”', () => {
+  it('renders the home page', () => {
+    renderRouter('/');
 	
-			screen.getByText(/Hello/);
-		});
-	});
+    screen.getByText(/Hello/);
+  });
+});
 	
-	context('when the current path is “/about”', () => {
-		it('renders the about page', () => {
-			renderRouter('/about');
+context('when the current path is “/about”', () => {
+    it('renders the about page', () => {
+      renderRouter('/about');
 	
-			screen.getByText(/About/);
-		});
-	});
+      screen.getByText(/About/);
+    });
+  });
 });
 ```
 
