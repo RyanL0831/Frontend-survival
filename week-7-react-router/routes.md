@@ -8,6 +8,29 @@
   * Route
   * Memory Router
 
+## MPA vs SPA
+
+#### MPA
+
+MPA는 Multiple Page Application으로, 여러 개로 구성된 웹 애플리케이션을 말한다. 새로운 화면을 요청할 때마다, 서버에서 준비한 화면을 보여줄 수 있다
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+**MPA**의 단점이 있다.\
+1\. 새로운 페이지를 받을 때마다 전체 페이지를 랜더링해야 하기 때문에 사용자가 이용하고 있는 상태를 유지하기가 어렵다.\
+2\. 바뀌지 않는 부분까지 새롭게 불러와서 보여주기 때문에 불필요한 로딩이 발생합니다.
+
+그래서 리액트는 처음 요청 시에 딱 한 페이지만 보여주고, 변경 사항이 있는 부분만 새로 받아와 로딩하는 방식을 취하고 있다
+
+#### SPA
+
+SPA는 한 개의 페이지로 구성된 애플리케이션
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+웹 페이지는 홈, 게시판, 메인화면 여러개 페이지가 존재하는데, 어떻게 한가지 페이지로 여러 페이지를 대신할 수 있을까?\
+서버에서 사용자에게 제공하는 페이지는 하나지만, 다른 주소, 다른 화면을 보여주는 **라우팅**을 통하여 구현할 수 있고, 이를 가능하도록 `/Home.js`, `/Board.js`와 같이 다양하게 라우팅 페이지를 구현할 수 있다
+
 ## React Router
 
 \|  [React Router](https://reactrouter.com/en/main)
