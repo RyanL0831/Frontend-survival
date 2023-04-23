@@ -31,7 +31,8 @@ return (
          &#x3C;ul>
             &#x3C;li>&#x3C;Link to="/">Home&#x3C;/Link>&#x3C;/li>
             &#x3C;li>&#x3C;Link to="/about">About&#x3C;/Link>&#x3C;/li>
-         &#x3C;/ul>
+            &#x3C;li>&#x3C;Link to="/" className={example ? 'active' : ''}>Test&#x3C;/Link>&#x3C;/li>
+         &#x3C;/ul>                      //NavLink의 수동 버전 
       &#x3C;/nav>
 <strong>   &#x3C;/header>
 </strong>   );
@@ -55,6 +56,8 @@ return (
 </strong>   );
 }
 </code></pre>
+
+class .active 로 현재 pg 주소를 잡아줌
 
 ### Navigate
 
