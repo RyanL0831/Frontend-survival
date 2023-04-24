@@ -33,3 +33,4 @@
   * [Routes](week-7-react-router/routes.md)
   * [Router](week-7-react-router/router.md)
   * [Navigation](week-7-react-router/navigation.md)
+* [Week 8: CSS in JS](week-8-css-in-js.md)
