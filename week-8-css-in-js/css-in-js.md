@@ -61,7 +61,7 @@
 
 \|  [Why We're Breaking Up with CSS-in-JS (2022)](https://bit.ly/3g6QufF)
 
-대안:
+#### 대안:
 
 * [Linaria](https://linaria.dev/)
   * CSS를 평범한 텍스트로 작성
