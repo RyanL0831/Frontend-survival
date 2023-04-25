@@ -22,9 +22,7 @@
 
 #### 우리는 _Theme_과 _Component_라는 개념을 활용할 수 있다
 
-#### (BONUS)
-
-Jakob Nielsen과 Donald Norman은 UX 분야에서 전설적인 인물들. 아샬이 자주 참고한다(이 회사엔 없지만 앨런 쿠퍼도 포함).
+#### Jakob Nielsen과 Donald Norman은 UX 분야에서 전설적인 인물들. 아샬이 자주 참고한다(이 회사엔 없지만 앨런 쿠퍼도 포함).
 
 * [제이콥 닐슨](https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9D%B4%EC%BD%A5\_%EB%8B%90%EC%8A%A8) : 사용성 테스트로 유명
   *   ### 웹 사용성
