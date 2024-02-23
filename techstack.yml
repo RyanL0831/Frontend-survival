@@ -1,0 +1,20 @@
+repo_name: RyanL0831/Frontend-survival
+report_id: b7b67dc403b4e5f2958a0796661e9d2d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-23T22:09:51+00:00'
+requested_by: RyanL0831
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/RyanL0831/Frontend-survival
+  detection_source: Repo Metadata
